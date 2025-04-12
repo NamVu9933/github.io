@@ -5,11 +5,7 @@
 .u-section-1 .u-video-1 {
   width: 570px;
   height: 619px;
-  margin: 0 auto 20px;
-}
-
-.u-section-1 .embed-responsive-1 {
-  position: absolute;
+  margin: 10px auto;
 }
 
 @media (max-width: 767px) {
@@ -30,7 +26,6 @@
 
   .u-section-1 .u-video-1 {
     height: 605px;
-    margin-bottom: 16px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
