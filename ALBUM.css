@@ -227,6 +227,15 @@
   padding: 24px;
 }
 
+.u-section-2 .u-gallery-item-4 {
+  margin-right: 10px;
+}
+
+.u-section-2 .u-over-slide-4 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 24px;
+}
+
 .u-section-2 .u-gallery-nav-1 {
   position: absolute;
   left: 10px;
@@ -247,27 +256,18 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 793px;
-  }
-
   .u-section-2 .u-text-1 {
     width: 657px;
     margin-top: 0;
   }
 
   .u-section-2 .u-gallery-1 {
-    height: 625px;
     margin-top: 35px;
     margin-bottom: 34px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 610px;
-  }
-
   .u-section-2 .u-text-1 {
     margin-top: 22px;
     margin-left: 32px;
@@ -275,17 +275,12 @@
   }
 
   .u-section-2 .u-gallery-1 {
-    height: 478px;
     margin-top: 22px;
     margin-bottom: 22px;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 546px;
-  }
-
   .u-section-2 .u-text-1 {
     font-size: 3rem;
     width: 540px;
@@ -294,17 +289,12 @@
   }
 
   .u-section-2 .u-gallery-1 {
-    height: 359px;
     margin-top: 23px;
     margin-bottom: 34px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 372px;
-  }
-
   .u-section-2 .u-text-1 {
     font-size: 2.25rem;
     width: 340px;
@@ -314,7 +304,6 @@
   }
 
   .u-section-2 .u-gallery-1 {
-    height: 223px;
     margin-top: 13px;
     margin-bottom: 57px;
   }
@@ -1321,10 +1310,15 @@
 } .u-section-4 {
   background-repeat: no-repeat;
   background-image: url("images/AdobeStock_258173340-1920x1080.jpeg");
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
 .u-section-4 .u-sheet-1 {
   min-height: 400px;
+}
+
+@media (max-width: 1199px) {
+   .u-section-4 {
+    background-size: cover;
+    background-position: 50% 50%;
+  }
 }
