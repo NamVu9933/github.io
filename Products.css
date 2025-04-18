@@ -167,6 +167,7 @@
 
   .u-section-1 .u-layout-cell-1 {
     order: 1;
+    min-height: 510px;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -180,12 +181,14 @@
   }
 
   .u-section-1 .u-icon-1 {
-    margin-top: -394px;
+    height: 39px;
+    width: 39px;
+    margin-top: -99px;
   }
 
   .u-section-1 .u-text-2 {
     font-size: 1.125rem;
-    margin-top: 329px;
+    margin-top: 50px;
   }
 
   .u-section-1 .u-layout-cell-2 {
